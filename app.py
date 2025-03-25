@@ -7,6 +7,7 @@ car_data = pd.read_csv('vehicles_us.csv')
 
 st.header('PROYECTO 7') #TITULO DE LA APP
 
+st.write("Juan Pablo Cano DA")
 
 his_button = st.checkbox('Construir histograma') #BOTÓN 1 HISTOGRAMA
 if his_button:
